@@ -1,0 +1,226 @@
+Software Requirement Specification(SRS)
+
+                                                FOR ONLINE PHOTOGRAPHER BOOKING
+
+
+
+1.Introduction
+------------------------------------------
+
+1.1 Purpose
+
+    The purpose of this document is to present a detailed description of the ONLINE PHOTOGRAPHER BOOKING. 
+    It will explain the purpose and features of the system , the interfaces of the system, what the system 
+    will do , the constraints under which it must operate and how the system will react to the external
+    stimuli. The document is intended for both the customers and developers of the system. photographer 
+    booking web application is used to provide complete solutions for the photographers as well as
+    customers through single get way using internet.
+
+
+1.2 Scope
+
+    Booking photography is a project which will enable customers or clients to book for professional 
+    photographer via online.Book the best photographer according to needs on just one click.  
+    
+
+
+1.3 Overview:
+
+     This system will provide an easy solution for customer's  to book photographer 
+     on single click instead of physically approaching the respective office.
+
+
+1.4  Additional Information:
+    
+      The system work on internet server, so it will be operated by any end user for the booking 
+      purpose with secure platform.This system protects the integrity of photographers and 
+      customers, provides easy bookings,offers, cancellation.
+
+
+1.5  Gereral Description:
+     
+     The online photographer booking application helps customer to pick the photographer by surfing 
+     random pics clicked by photographer according to their choice of photoshoot.
+
+
+
+2. Specific Requirements:
+---------------------------------------------------------------------------
+ 
+2.1 Functional Requirement:
+    
+     This section provides requirement overview of the system. Various functional 
+     modules that can be implemented by the system will be-
+  
+
+3. Description:
+
+    In our website user can view home, about us , information, location, contact, promotion, booking,
+    price,login and signup page.customers or clients to book for professional photographer via online.
+    As a guest, user can only view the systems and feedback us.For the user who sign up as a member ,
+    after login, they able to view home,about us, information, location , contact, promotion , bookings , 
+    price , payment, profile update and prices in details.Only members can book our photographer and make payment via online. 
+    For booking, the details required are the date,type of photoshoot, location, payment.
+    For users who are not a member and would like to book a photographer must signup and become a member. 
+    it is easy register and requirements are Full Name, Username, Address, Phone Number, Email, etc. 
+    Billing information iThe term client/server refers primarily to an architecture or logical division of responsibilities, 
+    the client is the application (also known as the front-end), and the server is the RDBMS (also known as the back-end).
+    A client/server system is a distributed system in which,Some sites are client sites and others are server sites.
+    All the data resides at the server sites.
+    All applications execute at the client sites.s required of making payment via transfer from their account to our account. 
+    Then customer will get booking confirmation mail , and one copy will be saved for the system database to calculate
+     monthly bookings.
+    
+
+4. Technical Issues:
+		
+    This system will work on client-Server architecture. It will require an internet server.
+    The system should support some commonly used browser such as Chrome etc.
+    Interface Requirement Various interfaces for the product could be 
+        1.Login Page, 
+        2.Registration form
+    
+    The customers may select the different options:
+
+        1.Login page
+        2.Registration Form
+        3.category
+        4.Booking cart
+        5.Account Settings
+        6.Payment Gateways
+
+5. Hardware Interface:
+
+     The System must run over the internet,
+        	All the hardware shall require to connect to internet will be hardware interface for the system.
+		e.g. modem,  WAN, LAN
+		Specialized Server Infrastructure Hardware
+        	The system should use distrubuted servers i.e cloud for managing large amount of data so as to 
+                make it appear as single unit for end-user.
+        	The system should have proper clusters for backup.
+
+
+6. Software Interface:
+		
+                The system is on server so it requires the any scripting language like JSP or  PHP or ASP, ETC.
+        	The system should be able to exchange data using XML, JASON or any advance technology.
+		The system require DataBase also for the store the any transaction of the system like MySql or 
+                oracle, or SQL server etc.
+		System also require DNS (Domain Name space) for the naming on the internet.
+		http://www.transflower.in
+		http://www.amazon.in
+        	At the end-user need web browser for interact with the system.
+    
+7.Performance Requirement:
+
+		There is no  performance requirement in this system, because the server request  and respone to 
+                client is totally based on internet connection of enduser.
+
+8.Design Constrains:
+
+		This system should be developed using  Standard Web Page Development Tool , which conforms GUI standards such like HTML, XML, JSON,etc.
+        	The system should support various RDMS and Cloud Technologies.
+
+
+
+9.Non-Functional Requirements
+
+	1.Security:
+
+	  	SSL
+		The System use SSL (Secure Socket Layer) in all trancations that include any confidential customer information.
+		The system must automcatically log out all customers after a period of inactivity.
+		The system should not leave any cookies on the customer's computer containing users's password.
+		The system's back-end servers shall  only be accessible to authenticated administrators.
+		Sensitive data will be encrypted  before being sent onver insecure connections like internet.
+        	The proper firewalls should be developed to avoid intrusions from the internal or external sources.
+
+
+	2.Reliability:
+
+		The system provides storage of all databases on redundant computers with  automatic switchover. 
+		The main pillar of reliability of the system  is the backup of the database 
+		which is conitinously maintained and update to reflect  the most recenet changes.
+
+
+	3: Availability:
+
+		The system should be available at all times.meaning the user can access it using web browser, 
+       	 	only restricted by the down time of the server on which the system runs.
+        	In case of a of a hardware failure or database corruption, a replacement page will be shown. 
+		uptime : It mean 24 * 7 availability
+	
+
+
+	4: Maintainability:
+
+		A commercial database is used for maintaining the databae and application server takes care of the site. 
+		The maintainability can be done efficiently.
+
+	5.Portability:
+
+		The application is HTML and scripting language based (Javascript). So the end user part is fully 
+                portable and any system using any web browser should be able to use the features of the system,
+                including any hardware platform that is available or will be available in the futuer. 
+		An end-user  is used this system on an OS;either it is Windows or Linux.
+		The System shall run on PC, Laptops and PDA.etc.
+		The  technology should be transferable to different environments easily.
+
+	6.Accessibility:
+
+        	Only registered users should be allowed to process the orders after authentications.
+        	Only GUI access of the system should be permited to end users.
+
+	7.Policies:
+
+       		The system should adhere to all the legal formalities of the particular countries.
+       		The system should maintain security related to sensitive data.
+
+	8.Efficiency:
+
+		The system should provide good throughput and response to multiple users without burdening 
+                the system by using appropriate number of servers.
+
+	9.Safety:
+
+      		Software should not harm ethical and environmental conditions of the end users machine.
+
+	10.Modulariy:
+      		The system should have user friendly interface. 
+      		It should be easily updated,modified and reused. 
+
+
+
+
+10.operational Scenario:
+        
+      1.Customer Interaction
+      
+      customer will choose the photographer according to the type of photoshoot he/she wants to do.
+       and those photographers will display random photographs taken by them.
+
+      after seeing those photographs, the customer will choose the photographer he/she wants.
+      The payment will be made with credit card or debit card.
+      If customer wants to cancel the booking then they can easily cancel it.
+    
+      2.Shopper Interaction:
+	
+      3.Staff Interaction:
+	
+      4.BOD (Board Of Directors)
+	
+11.Preliminary Schedule: :
+
+                1.Login
+		2.Manage customer database Browse category
+                3.add or remove booking cart
+                4.Manage customer database
+                5.manage photography categories
+                6.packages
+                7.cancellation policies
+                8.payment gateway integration
+                9.Custome inquiry
+                10.Alert and push notifications.
+       
+
+ 
